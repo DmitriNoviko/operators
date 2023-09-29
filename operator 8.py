@@ -1,10 +1,10 @@
-year = int(input("Введите год: "))
+y = int(input("Введите год: "))
 
-if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
-    print(year, "високосный год")
-    days = 366
+if (y % 4 == 0 and y % 100 != 0) or y % 400 == 0:
+    print(y, "высокосный год")
+    d = 366
 else:
-    print(year, "не високосный год")
-    days = 365
+    print(y, "не высокосный год")
+    d = 365
 
-print("Количество дней в году:", days)
+print("Количество дней в году:", d)
