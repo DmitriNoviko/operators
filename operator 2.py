@@ -1,13 +1,13 @@
-a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
-c = int(input("Введите третье число: "))
+a = int(input("Введите a число: "))
+b = int(input("Введите b число: "))
+c = int(input("Введите c число: "))
 
 if a == b or b == c or a == c:
-    print("Ошибка: есть равные числа")
+    print("Ошибка: есть = числа")
 else:
     if (a > b and a < c) or (a > c and a < b):
-        print("Среднее число:", a)
+        print("middle число:", a)
     elif (b > a and b < c) or (b > c and b < a):
-        print("Среднее число:", b)
+        print("middle число:", b)
     else:
-        print("Среднее число:", c)
+        print("middle число:", c)
