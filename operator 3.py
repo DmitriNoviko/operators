@@ -1,5 +1,5 @@
-bigger = int(input("Введите большее число: "))
-smaller = int(input("Введите меньшее число: "))
+bigger = int(input("Введите max число: "))
+smaller = int(input("Введите min число: "))
 
 if bigger % smaller == 0:
     print(bigger, "кратно", smaller)
