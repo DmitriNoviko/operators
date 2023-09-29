@@ -1,10 +1,10 @@
-a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
-c = int(input("Введите третье число: "))
+a = int(input("Введите a число: "))
+b = int(input("Введите b число: "))
+c = int(input("Введите c число: "))
 
 if a > b and a > c:
-    print("Максимальное число:", a)
+    print("max число:", a)
 elif b > a and b > c:
-    print("Максимальное число:", b)
+    print("max число:", b)
 else:
-    print("Максимальное число:", c)
+    print("max число:", c)
